@@ -15,5 +15,5 @@ Some more description
 http://github.com
 
 test image.
-![check image](/images/Brain-on-stories-1.jpg)
+[check image](/images/Brain-on-stories-1.jpg)
 
