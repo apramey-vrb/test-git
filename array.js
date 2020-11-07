@@ -46,6 +46,14 @@ class array{
         delete this.data[this.length-1];
         this.length--;
     }
+    insert(index, item){
+        this.length++;
+        for(let i=index ; i<this.length-1; i++){
+            this.data[i+1] = this.data[i];
+        }
+        let actualIndex = index > this.length-1 ? this.length-1 : index;        
+        this.data[actualIndex] = item;
+    }
 }
 
 let aArray = new array();
@@ -55,4 +63,5 @@ aArray.push('hi');
 aArray.pop();
 aArray.push('hello');
 aArray.delete(0);
+aArray.insert(2, 'Alien')
 console.log(aArray.data);
