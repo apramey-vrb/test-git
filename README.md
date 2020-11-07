@@ -1,19 +1,24 @@
-# Test Git 
+# test-git
 
-Some description.
+## Project setup
+```
+npm install
+```
 
-## Added another header 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-Some more description 
+### Compiles and minifies for production
+```
+npm run build
+```
 
-*Some italics*
-**Some bold**
+### Lints and fixes files
+```
+npm run lint
+```
 
-* List
-    * sub list 
-
-http://github.com
-
-test image.
-[check image](/images/Brain-on-stories-1.jpg)
-
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
